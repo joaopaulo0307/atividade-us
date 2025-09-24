@@ -91,7 +91,7 @@ export default function CheckoutPage() {
                 min="1" 
                 value={quantities[item.id] || 0}
                 onChange={(e) => updateQuantity(item.id, parseInt(e.target.value))}
-                className="w-16 text-center border rounded-md"
+                className="w-16 text-center border-none rounded-md"
               />
               <span className="font-semibold">${item.price * (quantities[item.id] || 0)}</span>
               <Trash2 

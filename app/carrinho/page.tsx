@@ -111,10 +111,10 @@ export default function CheckoutPage() {
         <img src="/images/pessoa.png" alt="Mastercard" className="h-12 w-12  border rounded" />
       </div>
         <div className="flex items-center gap-2 mb-">
-          <img src="/images/mastercard.png" alt="Mastercard" className="h-12 w-auto border rounded" />
-          <img src="/images/visa.png" alt="Visa" className="h-12 w-auto border rounded" />
-          <img src="/images/rupay.png" alt="Rupay" className="h-12 w-auto border rounded" />
-          <span className="h-12 ml-auto border rounded flex items-center">See all</span>
+          <img src="/images/mastercard.png" alt="Mastercard" className="h-12 w-auto border rounded bg-violet-500" />
+          <img src="/images/visa.png" alt="Visa" className="h-12 w-auto border rounded bg-violet-500" />
+          <img src="/images/rupay.png" alt="Rupay" className="h-12 w-auto border rounded bg-violet-500" />
+          <span className="h-12 ml-auto border rounded flex items-center bg-violet-500">See all</span>
         </div>
 
         <div className="space-y-4">
